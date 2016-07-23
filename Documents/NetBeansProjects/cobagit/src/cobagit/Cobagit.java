@@ -13,16 +13,17 @@ public class Cobagit extends JFrame {
 
     private void initUI() {
         setTitle("Simple example");
-        setSize(800, 600);
+        setSize(9000, 9000);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            int i = 1;
+           int i = 1;
             int j = 5;
             int x = i+j;
+        EventQueue.invokeLater(new Runnable() {
+         
             
             @Override
             public void run() {
