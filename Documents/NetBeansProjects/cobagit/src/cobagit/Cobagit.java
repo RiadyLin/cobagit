@@ -20,6 +20,9 @@ public class Cobagit extends JFrame {
 
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
+            int i = 1;
+            int j = 5;
+            int x = i+j;
 
             @Override
             public void run() {
