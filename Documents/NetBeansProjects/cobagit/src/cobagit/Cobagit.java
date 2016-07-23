@@ -23,7 +23,7 @@ public class Cobagit extends JFrame {
             int i = 1;
             int j = 5;
             int x = i+j;
-
+            
             @Override
             public void run() {
                 Cobagit ex = new Cobagit();
